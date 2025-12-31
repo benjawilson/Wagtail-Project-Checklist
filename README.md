@@ -16,10 +16,9 @@ How to setup Git
 
 Initialize the repository and check git config.
 ```markdown
-```bash
 $ git init
 $ git config --list
-
+```
 
 ---
 
