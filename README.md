@@ -14,6 +14,13 @@ A plan for starting new Wagtail CMS projects.
 ## Git Setup
 How to setup Git
 
+Initialize the repository and check git config.
+```markdown
+```bash
+$ git init
+$ git config --list
+
+
 ---
 
 ## Virtual Environment 
