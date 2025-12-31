@@ -13,22 +13,24 @@ A plan for starting new Wagtail CMS projects.
 
 ## Git Setup
 
-Create a new directory for the project
+- Create a new directory for the project
 ```bash
 $ mkdir New-Project
 ```
 
-Initialize the repository and check the git config. Your name and email should be spelled correctly.
+- Initialize the repository and check the git config. 
+- Make sure your name and email are spelled correctly.
+
 ```bash
 $ git init
 $ git config --list
 ```
 
-Create a development branch named dev.
+- Create a development branch named dev.
 ```bash
 $ git checkout -b dev
 ```
-Create a gitignore or copy the gitignore template.
+- Create a gitignore or copy the gitignore template.
 
 ---
 
@@ -38,14 +40,14 @@ Create a gitignore or copy the gitignore template.
 $ python -m venv venv
 ```
 
-Bash:
 ```bash
 bash
+
 $ source venv/bin/activate
 ```
-Powershell:
 ```powershell
 powershell
+
 $ venv\Scripts\Activate.ps1
 ```
 
